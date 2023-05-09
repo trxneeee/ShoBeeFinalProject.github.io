@@ -438,12 +438,19 @@ margin-top:30px;
   }
 }
 
-.shopnow {background-color: #fbe323;
+.shopnow {background-color: White;
   text-decoration: none;
   color: black;
   text-align:center;
-  width:50px;
+  border-radius:50px;
+  width:500px;
+  height: 100px;
+  font-family:sora;
+  font-size: 50px;
+  background-color:black;
+  color:#fbe323;
 }
+.shopnow:hover { text-decoration:underline;box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);}
 footer{
     bottom: 0;
     left: 0;
@@ -601,6 +608,7 @@ input[type=text]:focus, input[type=password]:focus {
   margin-left:40px;
   margin-right:40px;
   border-radius:50px;
+  width:250px;
 }
 
 .price {
